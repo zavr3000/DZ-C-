@@ -1,0 +1,16 @@
+#include <iostream>
+#include "math.h"
+#include <stdio.h>
+
+int main() {
+    int a,b;
+    float epsilon=0.000001;
+    std::cin>>a>>b;
+    if (((float)a/b-1)<=epsilon)
+   std::cout<< " Results are equal (by 0.000001 epsilon)";
+    else
+   std::cout<<" Results are not equal (by 0.000001 epsilon)";
+    return 0;
+
+
+}
